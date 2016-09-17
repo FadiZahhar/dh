@@ -260,6 +260,7 @@ ul.links li:hover {
 
 body {
   overflow-x:hidden;
+  font-family: 'MYRIADPROREGULAR';
 }
 
 .borderbox2 {
@@ -276,7 +277,12 @@ box-shadow: 20px 15px 5px 5px rgba(231,230,230,1);
 	bottom:50px;
 	left:-280px;
 }
-
+.greay-box p {
+	color:#b5b5b5;
+	font-size:18px;
+	font-weight: bold;
+	padding:15px 15px 15px 15px;
+}
 .button-box {
 	width:560px;
 	height:123px;
@@ -306,4 +312,62 @@ opacity: 0.8;
 }
 .fa-close {
 	display:none;
+}
+
+h1 {
+	
+	font-weight: bold;
+	font-size:65px;
+	color:#fff;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #333;
+	letter-spacing: 1.5px;
+	line-height:85px;
+	margin-top:-130px;
+}
+
+article.intro h2 {
+	font-size:30px;
+	color:#000;
+	font-weight: bold;
+}
+
+article.intro h2::before {
+	content:'';
+	background-image:url('../images/curssor.png');
+	width:45px;
+	height:15px;
+	position:absolute;
+	margin-left:-55px;
+}
+
+article.intro  a {
+	font-size:18px;
+	text-transform: lowercase;
+	color:#000;
+	margin-top:5px;
+	margin-left:200px;
+	position:absolute;
+	
+}
+
+article.intro p {
+	font-size:18px
+	color:#000;
+	line-height:30px;
+	padding-top:50px;
+	padding-bottom:50px;
+	text-align: justify;
+}
+
+.more {
+	color:#fff;
+	cursor: pointer;
+}
+
+article.contactcontent p {
+	font-size:22px;
+	color:#666;
+	text-align: justify;
+	margin:25px auto;
 }

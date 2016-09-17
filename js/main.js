@@ -19,8 +19,15 @@ $(document).ready(function() {
     $('.fa-close').hide('slow');
    });
 
-   $('.lorem').on('click',function(e){
-    $('.lorem2').remove();  
-    $('.lorem').attr('src','images/loremempty.png').attr('style','padding-left:25px;padding-top:25px').after('<img class="lorem2" src="images/lorem-.png" style="padding-left:25px;cursor:pointer" onclick="reset()" />');
-   });
+    $('.greay-box').find('span.plus').on('click',function(e){
+    var target = $('.greay-box');
+    var html = target.find('p.plus').html();
+    target.find('p.content').html(html).find('span.minus').on('click',function(e){
+    var target = $('.greay-box');
+    var html = target.find('p.minus').html();
+    target.find('p.content').html(html);
+
+    });
+
+    });
 });
