@@ -10,10 +10,10 @@
 	padding-top:45px;
 }
 
-.fa:hover {
-	color:#fff!important;
-	opacity: 0.8;
+img.video:hover {
+	opacity:0.7;
 }
+
 
 ul.navigation {
 	list-style: none;
@@ -290,7 +290,7 @@ body {
   font-family: 'MYRIADPROREGULAR';
 }
 
-h1,h2,h3,h4,h5,h6, span {
+h1,h2,h3,h4,h5,h6, p,span {
 	font-family: 'MYRIADPROREGULAR'!important;
 }
 
