@@ -61,11 +61,11 @@
       carouselIndicatorItem: '<li data-target="#{elementId}" data-slide-to="{slideNumber}" {activeClass}></li>',
       carouselControls: '' +
         '<a class="left carousel-control" href="#{elementId}" role="button" data-slide="prev">' +
-          '<span class="{previousIcon}" aria-hidden="true"></span>' +
+          '<i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i>' +
           '<span class="sr-only">{previousText}</span>' +
         '</a>' +
         '<a class="right carousel-control" href="#{elementId}" role="button" data-slide="next">' +
-          '<span class="{nextIcon}" aria-hidden="true"></span>' +
+          '<i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i>' +
           '<span class="sr-only">{nextText}</span>' +
         '</a>',
     },

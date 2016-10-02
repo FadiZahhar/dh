@@ -19,15 +19,5 @@ $(document).ready(function() {
     $('.fa-close').hide('slow');
    });
 
-    $('.greay-box').find('span.plus').on('click',function(e){
-    var target = $('.greay-box');
-    var html = target.find('p.plus').html();
-    target.find('p.content').html(html).find('span.minus').on('click',function(e){
-    var target = $('.greay-box');
-    var html = target.find('p.minus').html();
-    target.find('p.content').html(html);
-
-    });
-
-    });
+  
 });
