@@ -1,3 +1,20 @@
+img.hover:hover {
+    opacity:0.7;
+}
+
+p.light {
+    font-family: 'ubuntu', sans-serif!important;
+    font-weight:lighter!important;
+    font-size:20px;
+    text-align: center!important;
+}
+
+article.intro h2.light {
+    font-family: 'ubuntu', sans-serif!important;
+    font-weight:lighter;
+    font-size:30px;
+}
+
 .header.jumbotron {
 	background-color:#000;
 	max-height:153px;
@@ -40,14 +57,14 @@ ul.navigation {
 ul.navigation li {
 	list-style: none;
 	width:100px;
-	color:#fff;
+	color:#000;
 	display: inline-block;
 	font-size:18px;
 }
 
 ul.navigation li a {
-	color:#fff;
-	font-family: 'MYRIADPROREGULAR';
+	color:#000;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 img {
@@ -165,6 +182,10 @@ box-shadow: 50px 0px 5px 0px rgba(235,235,235,1);
 	margin-bottom:50px;
 }
 
+.m-b-10 {
+    margin-bottom:10px;
+}
+
 .m-t-0 {
 	margin-top:0px;
 }
@@ -191,13 +212,13 @@ button.contact:hover {
 }
 
 button.contact {
-	font-family: 'MYRIADPROREGULAR';
+	font-family: 'Ubuntu', sans-serif;
 	width:360px;
 	height:70px;
 	background-color:#3d3b35;
 	font-size:24px;
 	color:#fff!important;
-	letter-spacing:15.5px;
+	letter-spacing:8px;
 	border:none;
 	margin:50px 0 50px 0;
 }
@@ -228,11 +249,12 @@ padding:20px 0 8px 0;
  }
 
 ul.links li a {
-	font-family: 'MyriadProBoldCondensed' !important;
+	font-family: 'Ubuntu', sans-serif!important;
 	font-weight: bold;
 	font-size:24px;
 	color:#d0d2d3;
 	text-decoration:none;
+    font-weight: lighter;
 }
 
 ul.links li:hover a ,ul.links li.active a{
@@ -302,11 +324,13 @@ ul.links li:hover, ul.links li.active {
 
 body {
   overflow-x:hidden;
-  font-family: 'MYRIADPROREGULAR';
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
 }
 
 h1,h2,h3,h4,h5,h6, p,span {
-	font-family: 'MYRIADPROREGULAR'!important;
+	font-family: 'Ubuntu', sans-serif!important;
+    font-weight: lighter;
 }
 
 .borderbox2 {
@@ -328,10 +352,11 @@ box-shadow: 20px 15px 5px 5px rgba(231,230,230,1);
 	font-size:18px;
 	font-weight: bold;
 	padding:15px 15px 15px 15px;
+    font-weight: lighter;
 }
 .button-box {
-	width:560px;
-	height:123px;
+	width:580px;
+	height:105px;
 	background-color:#e8e8e8;
 	position: absolute;
 	bottom: -25px;
@@ -340,10 +365,10 @@ box-shadow: 20px 15px 5px 5px rgba(231,230,230,1);
 	cursor: pointer;
 	color:#3e3c36;
 	font-size:30px;
-	font-family: 'MyriadProBoldCondensed' !important;
+	font-family: 'Ubuntu', sans-serif!important;
 	font-weight: bold;
-	letter-spacing:15.5px;
-	padding: 35px 0px 0px 135px;
+	letter-spacing:8px;
+    padding: 28px 0px 0px 178px;
 }
 
 .button-box:hover {
@@ -412,9 +437,9 @@ article.intro p {
 }
 
 article.contactcontent p {
-	font-size:22px;
+	font-size:17px;
 	color:#666;
-	text-align: justify;
+	text-align: center;
 	margin:25px auto;
 }
 
