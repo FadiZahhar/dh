@@ -245,7 +245,7 @@ button.contact {
 
  ul.links li {
  	list-style:none;
-padding:20px 0 8px 0;
+padding:5px 0 5px 0;
  }
 
 ul.links li a {
@@ -264,9 +264,9 @@ ul.links li:hover a ,ul.links li.active a{
 }
 
 ul.links li:hover, ul.links li.active {
-	background-image:url('../images/curssor.png');
+	/*background-image:url('../images/curssor.png');
 	background-repeat: no-repeat;
-	background-position:150px 25px;
+	background-position:150px 25px;*/
 }
 
 .gallery ul li img:hover {
@@ -439,7 +439,7 @@ article.intro p {
 article.contactcontent p {
 	font-size:17px;
 	color:#666;
-	text-align: center;
+	text-align:justify;
 	margin:25px auto;
 }
 
