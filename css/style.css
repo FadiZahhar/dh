@@ -254,6 +254,7 @@ ul.links li a {
 	font-size:24px;
 	color:#d0d2d3;
 	text-decoration:none;
+    text-transform:uppercase;
     font-weight: lighter;
 }
 
